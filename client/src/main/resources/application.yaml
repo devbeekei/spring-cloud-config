@@ -8,3 +8,9 @@ spring:
     config:
       name: client
       profile: local
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh
