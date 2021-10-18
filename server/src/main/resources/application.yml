@@ -6,4 +6,5 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/madplay/spring-cloud-config-repository
+          uri: https://github.com/devbeekei/spring-cloud-config/resources
+          default-label: main
