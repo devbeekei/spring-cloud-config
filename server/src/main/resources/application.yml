@@ -6,5 +6,5 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/devbeekei/spring-cloud-config/resources
+          uri: https://github.com/devbeekei/spring-cloud-config
           default-label: main
