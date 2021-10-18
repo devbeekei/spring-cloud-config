@@ -1,0 +1,11 @@
+<connection-config version="0.1">
+    <server-list>
+        <server>
+            <id>WordviceMember</id>
+            <type>0</type>
+            <connection-string>server=wordvice-auth-test-db2.clprp9mptmxt.ap-northeast-2.rds.amazonaws.com;database=WordviceMember;uid=admin;pwd=tester12;</connection-string>
+            <target>WordviceMember</target>
+            <load-on-startup>0</load-on-startup>
+        </server>
+    </server-list>
+</connection-config>
