@@ -18,8 +18,16 @@ ext {
 
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
-    implementation 'org.springframework.cloud:spring-cloud-starter-config'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+    // actuator : 어플리케이션을 모니터링하고 관리하는 기능 (설정 정보 업데이트)
+    implementation 'org.springframework.boot:spring-boot-starter-actuator'
+    // Spring Cloud Config Client
+    implementation 'org.springframework.cloud:spring-cloud-starter-config'
+    // JDBC
+    implementation 'org.springframework.boot:spring-boot-starter-jdbc'
+    // MySQL
+    runtimeOnly 'mysql:mysql-connector-java'
 }
 
 dependencyManagement {
