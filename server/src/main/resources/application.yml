@@ -8,3 +8,8 @@ spring:
         git:
           uri: https://github.com/devbeekei/spring-cloud-config
           default-label: main
+        encrypt:
+          enabled: false
+
+encrypt:
+  key: devbeekei-encrypt-key
