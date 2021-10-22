@@ -1,6 +1,6 @@
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/local?serverTimezone=Asia/Seoul&useSSL=false&characterEncoding=utf8&allowPublicKeyRetrieval=true
-    username: root
-    password: password
+    url: {cipher}a70287ed4009c50eea8d0ee6bc26b16aa1cb89581ffc97ed323209e65a25ac80da8429317a04430cab5c1d0c0861a0dee8fcfc61da0947ef1a563de2eefc5b1a8f1037e75d8076be79ca39cc12f219a25bd20186aceb0a84b5dfbd9c04761069e09d4bcf3bc262a2118f8c0a274eda7113aed206570a3533cc87b5687f1ac1d0745206953b742e93e49bf1ffdcc63c1d
+    username: {cipher}1e7012775569ff4e70867e615b23778bde83e8834b2379805b66cda9789bc5f9
+    password: {cipher}471d1d3219df5ff73cb5524529a327475b238b60ae248862a73bc5ed91647008
